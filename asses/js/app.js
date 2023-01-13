@@ -42,7 +42,7 @@ function createMovieContainer(movies, title='') {
     const section = movieSection(movies);
 
 
-    const  movieTemplate  = `
+    /*const  movieTemplate  = `
         <h2>${title}</h2>
         <section class="section">
             ${movieSection(movies)}
@@ -51,7 +51,7 @@ function createMovieContainer(movies, title='') {
              <p id="content-close">X</p>
          </div>
 
-    `;
+    `;*/
 
     //movieElement.innerHTML = movieTemplate;
     movieElement.appendChild(header);
@@ -163,7 +163,7 @@ document.onclick = function(event) {
 getUpcomingMovies();
 getTopRatedMovies();
 getPopularmovies();
-searchMovie();
+//searchMovie();
 
 
 
